@@ -1,0 +1,41 @@
+{
+  "bot": {
+    "test_guild_ids": [1228090741600026684]
+  },
+  "database": {
+    "path": "data/clans.sqlite3"
+  },
+  "clans": {
+    "member_limit": 25,
+    "tag_min_length": 2,
+    "tag_max_length": 5,
+    "name_min_length": 3,
+    "name_max_length": 32,
+    "description_max_length": 300
+  },
+  "economy": {
+    "currency_name": "крон",
+    "daily_reward": 100,
+    "daily_streak_bonus": 10,
+    "daily_xp": 35,
+    "work_reward_min": 20,
+    "work_reward_max": 60,
+    "work_xp": 15,
+    "work_cooldown_seconds": 3600,
+    "clan_income_base": 100,
+    "clan_income_per_member": 15,
+    "clan_income_leader_share_percent": 40,
+    "event_max_reward": 10000,
+    "event_xp": 25,
+    "war_stake": 500
+  },
+  "ui": {
+    "color": "#5865F2",
+    "success_color": "#57F287",
+    "error_color": "#ED4245",
+    "timeout_seconds": 900,
+    "member_list_limit": 20,
+    "ranking_limit": 10,
+    "discovery_limit": 25
+  }
+}
